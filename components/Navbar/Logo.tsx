@@ -4,7 +4,7 @@ import Link from 'next/link';
 import * as React from 'react';
 import { Box, Typography } from '@mui/material';
 import { TabRoutes } from 'components/Navbar/NavbarConstants';
-import LogoUS from 'components/Navbar/LogoUS.svg';
+// import LogoUS from 'components/Navbar/LogoUS.svg';
 
 const Logo: React.FC = () => (
   <Typography
@@ -15,7 +15,7 @@ const Logo: React.FC = () => (
   >
     <Link href={TabRoutes.mainUrl}>
       <Box sx={{ display: 'flex', alignItems: 'center' }}>
-        <LogoUS />
+        {/* <LogoUS /> */}
         <Typography variant="body2" sx={{ ml: 1, fontSize: '16px' }}>
           Успіння Божої Матері
         </Typography>
