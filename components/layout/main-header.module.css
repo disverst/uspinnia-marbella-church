@@ -1,0 +1,91 @@
+.header {
+  /* width: 100%; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  padding: 1rem 6%;
+  height: 5rem;
+  background-color: #ffffff;
+}
+
+.logo {
+  /* width: 100%; */
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  font-family: 'Fira', sans-serif;
+  height: 100%;
+  /* justify-content: center;
+  align-items: center; */
+  color: #1a5574;
+  margin-right: 20px;
+}
+
+.logo a {
+  display: flex;
+  text-decoration: none;
+  color: #1a5574;
+}
+
+.logo a span {
+  display: block;
+  line-height: 1.2;
+}
+
+.logo a,
+.logo a span,
+.logo a svg {
+  vertical-align: middle; /* or vertical-align: top; */
+}
+
+.logoImg {
+  margin-right: 5px;
+}
+
+.logoText {
+  margin-right: 20px;
+}
+
+.fullWidthMenu {
+  display: flex;
+  width: 100%;
+  justify-content: space-between; /* Равномерное распределение элементов */
+  padding: 0; /* Сброс внутренних отступов */
+  list-style: none; /* Убираем маркеры списка */
+}
+
+.navigation {
+  /* width: 100%; */
+}
+
+.navigation a {
+  /* display: flex; */
+  /* justify-content: space-around; */
+  text-decoration: none;
+  color: #1a5574;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu li {
+  margin-right: 300px;
+}
+
+/* @media (max-width: 1020px) {
+  .header {
+    padding: 1rem 1%;
+    height: 5rem;
+  }
+  .logo {
+    font-size: 18px;
+  }
+
+  .navigation a {
+    font-size: 1.5rem;
+  }
+} */

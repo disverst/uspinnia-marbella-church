@@ -1,7 +1,8 @@
-import './globals.css';
+import 'app/globals.css';
 import React from 'react';
 import { Inter } from 'next/font/google';
-import Navbar from 'components/Navbar';
+import MainHeader from 'components/layout/main-header';
+// import Navbar from 'components/Navbar';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -32,8 +33,8 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body className={inter.className}>
-        <Navbar />
-        {children}
+        <MainHeader />
+        <main>{children}</main>
       </body>
     </html>
   );
