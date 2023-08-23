@@ -15,14 +15,20 @@
 .container {
   padding: 2rem 6%;
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   align-items: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
 }
 
 .imageContainer {
   flex: 0 0 auto;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  border-radius: 100%;
+  border-radius: 50%;
   overflow: hidden;
   border: 5px solid #1a5574;
   width: 15rem;
@@ -39,6 +45,7 @@
 .text {
   flex: 1;
   text-align: center;
+  padding: 1rem;
 }
 
 .text h1 {

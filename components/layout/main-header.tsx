@@ -13,8 +13,8 @@ function MainHeader() {
             <LogoUS />
           </div>
           <div className={classes.logoText}>
-            <span>Парафія на честь Успіння</span>
-            <span>Божої Матері в Марбеї</span>
+            <span className={classes.shadowText}>Парафія на честь Успіння</span>
+            <span className={classes.shadowText}>Божої Матері в Марбеї</span>
           </div>
         </Link>
       </div>
