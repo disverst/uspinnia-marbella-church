@@ -50,11 +50,4 @@
 
 .text h1 {
   font-family: 'zlatoust', sans-serif;
-  font-size: 1.5rem; /* Уменьшили размер шрифта для адаптивности */
-}
-
-@media (max-width: 768px) {
-  .text h1 {
-    font-size: 1rem;
-  }
 }
