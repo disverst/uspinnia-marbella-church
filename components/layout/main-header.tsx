@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-// eslint-disable-next-line import/no-unresolved
-import LogoUS from 'components/layout/LogoUS.svg';
+import LogoUS from 'components/layout/svgs/logoUS.svg';
 
 import classes from 'components/layout/main-header.module.css';
 
