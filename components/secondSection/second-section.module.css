@@ -3,5 +3,11 @@
 }
 
 .container {
+  padding-top: 100px;
   padding: 1rem 6%;
+}
+
+.container h1 {
+  padding-top: 50px;
+  text-align: center;
 }
