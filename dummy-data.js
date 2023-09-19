@@ -27,6 +27,33 @@ const DUMMY_EVENTS = [
     image: 'images/blog3_p3.jpg',
     isFeatured: true,
   },
+  {
+    id: 'e4',
+    title: 'Networking for extroverts',
+    desc: 'You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.',
+    shortDesc: 'My Street 12, 10115 Broke City',
+    date: '2022-04-10',
+    image: 'images/blog3_p3.jpg',
+    isFeatured: true,
+  },
+  {
+    id: 'e5',
+    title: 'Networking for extroverts',
+    desc: 'You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.',
+    shortDesc: 'My Street 12, 10115 Broke City',
+    date: '2022-04-10',
+    image: 'images/blog3_p3.jpg',
+    isFeatured: true,
+  },
+  {
+    id: 'e6',
+    title: 'Networking for extroverts',
+    desc: 'You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.',
+    shortDesc: 'My Street 12, 10115 Broke City',
+    date: '2022-04-10',
+    image: 'images/blog3_p3.jpg',
+    isFeatured: true,
+  },
 ];
 
 export function getFeaturedEvents() {
@@ -35,6 +62,11 @@ export function getFeaturedEvents() {
 
 export function getAllEvents() {
   return DUMMY_EVENTS;
+}
+
+export function getLastThreeEvents() {
+  const lastThreeEvents = DUMMY_EVENTS.slice(-3);
+  return lastThreeEvents;
 }
 
 export function getFilteredEvents(dateFilter) {
