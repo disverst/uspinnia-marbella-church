@@ -1,3 +1,26 @@
 .list {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.list > li {
+  flex: 1;
+  /* Adjust other styling properties as needed for your design */
+  margin: 10px; /* Reduce the margin to create more space */
+  padding: 10px;
+  box-sizing: border-box; /* Include padding and border in element's total width */
+}
+
+/* Media query for tablets */
+@media (max-width: 1100px) {
+  .list > li {
+    flex-basis: calc(50% - 20px); /* Two events in one row */
+  }
+}
+
+/* Media query for mobile */
+@media (max-width: 680px) {
+  .list > li {
+    flex-basis: calc(100% - 20px); /* One event per row */
+  }
 }
