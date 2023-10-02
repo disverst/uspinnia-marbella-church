@@ -13,7 +13,7 @@ export default function FooterSection() {
       icon: <MapIcon />,
     },
     {
-      text: '+34 666 675 414 свящ. Ігорь Будник',
+      text: '+34 666 675 414 свящ. Ігор Будник',
       href: 'tel:+34666675414',
       icon: <PhoneIcon />,
     },
