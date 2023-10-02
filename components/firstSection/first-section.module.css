@@ -9,7 +9,7 @@
 }
 
 .section {
-  background-color: #998f8f;
+  background-color: #8f9199;
 }
 
 .container {
@@ -50,4 +50,8 @@
 
 .text h1 {
   font-family: 'zlatoust', sans-serif;
+}
+
+.text p {
+  font-size: 20px;
 }

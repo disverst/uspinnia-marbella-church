@@ -1,0 +1,85 @@
+.section {
+  background-image: url('/images/footer-bg-image.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #8f9199;
+  padding: 20px 0;
+}
+
+.container {
+  padding: 2rem 6%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacts h2 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+.contacts {
+  text-align: left;
+  margin-right: 50px;
+}
+
+.text {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.link {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  margin-bottom: 20px;
+}
+
+.link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.link .icon svg {
+  fill: rgb(255, 255, 255);
+}
+
+.link:hover {
+  color: rgb(252, 0, 0);
+}
+
+.link:hover .icon svg {
+  fill: rgb(255, 0, 0);
+}
+
+.icon {
+  margin-left: 0.5rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.mapPicture {
+  width: 800px;
+}
+
+.mapPicture img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .mapPicture img {
+    content: url('/images/map2.png');
+  }
+}
