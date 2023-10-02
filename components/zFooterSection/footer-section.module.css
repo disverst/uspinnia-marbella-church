@@ -1,0 +1,78 @@
+.section {
+  background-color: #8f9199;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container {
+  padding: 2rem 6%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacts h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.contacts {
+  /* width: 300px; */
+  text-align: left;
+  margin-right: 50px;
+}
+
+.text {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.link {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  margin-bottom: 20px;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: blue;
+}
+
+.link:hover .icon svg {
+  fill: blue; /* Измените на желаемый цвет иконки при наведении */
+}
+
+.icon {
+  margin-left: 0.5rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.mapPicture {
+  width: 800px;
+}
+
+.mapPicture img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .mapPicture img {
+    content: url('/images/map2.png');
+  }
+}
