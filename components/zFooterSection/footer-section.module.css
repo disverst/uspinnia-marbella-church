@@ -1,8 +1,11 @@
 .section {
+  background-image: url('/images/footer-bg-image.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-color: #8f9199;
-  color: #fff;
   padding: 20px 0;
-  text-align: center;
 }
 
 .container {
@@ -14,12 +17,12 @@
 }
 
 .contacts h2 {
+  color: white;
   text-align: center;
   font-size: 30px;
 }
 
 .contacts {
-  /* width: 300px; */
   text-align: left;
   margin-right: 50px;
 }
@@ -39,16 +42,20 @@
 }
 
 .link {
-  color: black;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
+.link .icon svg {
+  fill: rgb(255, 255, 255);
+}
+
 .link:hover {
-  color: blue;
+  color: rgb(252, 0, 0);
 }
 
 .link:hover .icon svg {
-  fill: blue; /* Измените на желаемый цвет иконки при наведении */
+  fill: rgb(255, 0, 0);
 }
 
 .icon {
