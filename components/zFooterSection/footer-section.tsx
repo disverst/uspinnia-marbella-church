@@ -8,18 +8,18 @@ import classes from './footer-section.module.css';
 export default function FooterSection() {
   const contactLinks = [
     {
-      text: 'м. Марбелья вул. Alfredo Palma',
+      text: 'м. Марбелья вул. Alfredo Palma, 11',
       href: 'https://maps.app.goo.gl/wYvLiS2zGRWotjgZ9',
       icon: <MapIcon />,
     },
     {
-      text: '+34 666 675 414 свящ. Ігор Будник',
+      text: '+34 666 675 414 Настоятель свящ. Ігор Будник',
       href: 'tel:+34666675414',
       icon: <PhoneIcon />,
     },
     {
-      text: 'usp.marbella.ch@gmail.com',
-      href: 'mailto:usp.marbella.ch@gmail.com',
+      text: 'asuncion.virguen.maria@gmail.com',
+      href: 'mailto:asuncion.virguen.maria@gmail.com',
       icon: <MailIcon />,
     },
   ];
